@@ -3,10 +3,11 @@ import { MainLayout } from '@/components/layouts/MainLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Contact() {
   return (
     <MainLayout>
-      <code className='code'>pages/index.tsx</code>
+      <code className='code'>pages/contact.tsx</code>
     </MainLayout>
+    
   )
 }
